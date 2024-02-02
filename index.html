@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <h2>Password Generator</h2>
+        <p>Configuration</p>
+        <div id="passowrd-options">
+            <div class="option">
+                <box-icon name='hash' color='#fbf8f8'></box-icon>
+                <span class="option-text">
+                    <p class="option-title">Length Of The Password</p>
+                </span>
+            </div>
+            <div class="option">
+                <box-icon name='sort-a-z' color='#fbf8f8'></box-icon>
+                <span class="option-text">
+                    <p class="option-title">Include Lower Case Letters</p>
+                    <p class="option-description">(abcdefghigklmnopqrstuvwxyz)</p>
+                </span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider-round"></span>
+                </label>
+            </div>
+            <div class="option">
+                <box-icon name='sort-z-a' color='#fbf8f8'></box-icon>
+                <span class="option-text">
+                    <p class="option-title">Include Upper Case Letters</p>
+                    <p class="option-description">(ABCDEFGHIGKLMNOPQRSTUVWXYZ)</p>
+                </span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider-round"></span>
+                </label>
+            </div>
+            <div class="option">
+                <box-icon name='dice-6' type='solid' color='#fbf8f8'></box-icon>
+                <span class="option-text">
+                    <p class="option-title">Include Digits</p>
+                    <p class="option-description">(0123456789)</p>
+                </span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider-round"></span>
+                </label>
+            </div>
+            <div class="option">
+                <box-icon name='at' color='#fbf8f8'></box-icon>
+                <span class="option-text">
+                    <p class="option-title">Include Special Characters</p>
+                    <p class="option-description">(!@#$%^&*)</p>
+                </span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider-round"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
